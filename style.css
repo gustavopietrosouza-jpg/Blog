@@ -1,9 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Sofia&family=Yuyu&display=swap');
+
 :root{
     --rosa: #ff99c8ff;
---amarelo: #fcf6bdff;
---verde: #d0f4deff;
---azul: #a9def9ff;
+    --amarelo: #fcf6bdff;
+    --verde: #d0f4deff;
+    --azul: #a9def9ff;
+    --titulo: "Sofia", cursive;
+    --texto: "Yuyu", sans-serif;
+
 }
 body{
-    background: var(--verde)
+    background: var(--verde);
+    font-family:var(--texto);
+}
+h1{
+    font-family: var(--titulo);
 }
