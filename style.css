@@ -1,21 +1,50 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&family=Yuyu&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+}
+
 :root{
-    --rosa: #ff99c8ff;
-    --amarelo: #fcf6bdff;
-    --verde: #d0f4deff;
-    --azul: #a9def9ff;
+    --verde: #53eaaf;
+    --amarelo: #f9f871;
+    --ciano: #00dad2;
+    --azul: #3f04a0;
     --titulo: "Sofia", cursive;
     --texto: "Yuyu", sans-serif;
 
 }
 body{
-    background: var(--verde);
+    background: var(--ciano);
     font-family:var(--texto);
 }
 header{
     background-color: var(--amarelo);
     display: flex;
-    justify-content: var(--verde);
+    justify-content: var(--ciano);
     color: var(--azul)
+}
+
+.menu{
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    margin: 30px;
+    font-size: 22px;
+}
+
+.menu a{
+    text-decoration: none;
+    color: var(--branco);
+    font-weight: bold;
+}
+
+.menu a:hover{
+    color: var(--verde);
+    transition: 1s;
+}
+
+.img-capa{
+    width: 100%;
+    height: 10%;
 }
