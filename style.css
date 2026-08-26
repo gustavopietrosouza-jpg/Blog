@@ -44,7 +44,26 @@ header{
     transition: 1s;
 }
 
-.img-capa{
+.img{
     width: 100%;
-    height: 10%;
+    height:10%;
+}
+
+.conteudo{
+    margin: 30px;
+    border: 2px solid var(--ciano);
+    padding: 30px;
+    text-align: center;
+}
+
+.conteudo-titulo{
+    font-family: var(--titulo);
+    font-size:24px;
+    padding-bottom: 20px;
+    color: var(--verde);
+}
+
+.conteudo-texto{
+    font-family:var(--texto);
+    font-size: 14px;
 }
