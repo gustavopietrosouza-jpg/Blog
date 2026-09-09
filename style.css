@@ -25,6 +25,10 @@ header{
     color: var(--azul)
 }
 
+.logo{
+    width: 10%;
+    border-radius: 100%;
+}
 .menu{
     display: flex;
     list-style: none;
@@ -45,25 +49,34 @@ header{
 }
 
 .img{
-    width: 100%;
-    height:10%;
+    width: 50%;
+    height:300%;
 }
 
 .conteudo{
     margin: 30px;
-    border: 2px solid var(--ciano);
+    border: 2px solid var(--azul);
     padding: 30px;
     text-align: center;
 }
 
 .conteudo-titulo{
     font-family: var(--titulo);
-    font-size:24px;
+    font-size:30px;
     padding-bottom: 20px;
     color: var(--verde);
 }
 
 .conteudo-texto{
     font-family:var(--texto);
-    font-size: 14px;
+    font-size: 24px;
 }
+footer{
+    background: var(--azul);
+    color: var(--ciano);
+    font-family: var(--titulo);
+    font-size: 20px;
+    padding: 20px;
+    text-align: center;
+}
+  
