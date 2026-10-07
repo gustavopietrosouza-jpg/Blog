@@ -50,7 +50,7 @@ header{
 
 .img{
     width: 50%;
-    height:300%;
+    height: 100%;
 }
 
 .conteudo{
@@ -79,4 +79,3 @@ footer{
     padding: 20px;
     text-align: center;
 }
-  
