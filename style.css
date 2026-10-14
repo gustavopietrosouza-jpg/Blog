@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Sofia&family=Yuyu&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
+:root {
     --verde: #53eaaf;
     --amarelo: #f9f871;
     --ciano: #00dad2;
@@ -14,22 +14,27 @@
     --texto: "Yuyu", sans-serif;
 
 }
-body{
+
+body {
     background: var(--ciano);
-    font-family:var(--texto);
-}
-header{
-    background-color: var(--amarelo);
-    display: flex;
-    justify-content: var(--ciano);
-    color: var(--azul)
+    font-family: var(--texto);
 }
 
-.logo{
+header {
+    background-color: var(--amarelo);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: var(--azul);
+    padding: 20px;
+}
+
+.logo {
     width: 10%;
     border-radius: 100%;
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
     gap: 60px;
@@ -37,41 +42,42 @@ header{
     font-size: 22px;
 }
 
-.menu a{
+.menu a {
     text-decoration: none;
     color: var(--branco);
     font-weight: bold;
 }
 
-.menu a:hover{
+.menu a:hover {
     color: var(--verde);
     transition: 1s;
 }
 
-.img{
+.img {
     width: 50%;
     height: 100%;
 }
 
-.conteudo{
+.conteudo {
     margin: 30px;
     border: 2px solid var(--azul);
     padding: 30px;
     text-align: center;
 }
 
-.conteudo-titulo{
+.conteudo-titulo {
     font-family: var(--titulo);
-    font-size:30px;
+    font-size: 30px;
     padding-bottom: 20px;
     color: var(--verde);
 }
 
-.conteudo-texto{
-    font-family:var(--texto);
+.conteudo-texto {
+    font-family: var(--texto);
     font-size: 24px;
 }
-footer{
+
+footer {
     background: var(--azul);
     color: var(--ciano);
     font-family: var(--titulo);
