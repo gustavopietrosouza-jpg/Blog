@@ -1,36 +1,39 @@
 @import url('https://fonts.googleapis.com/css2?family=Montenegrin+Gothic+One&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
 
-:root{
-    --verde: #53eaaf; 
-    --amarelo: #f9f871; 
-    --ciano: #00dad2; 
-    --azul: #3f04a0; 
-    --titulo: "Sofia", cursive; 
+:root {
+    --verde: #53eaaf;
+    --amarelo: #f9f871;
+    --ciano: #00dad2;
+    --azul: #3f04a0;
+    --titulo: "Sofia", cursive;
     --texto: "Yuyu", sans-serif;
 }
 
-body{
+body {
     background: var(--ciano);
     font-family: var(--texto);
 }
-header{
+
+header {
     background-color: var(--amarelo);
     display: flex;
     justify-content: space-around;
     align-items: center;
-    color: var(--verde  );
+    color: var(--verde);
     padding: 20px;
 }
-.logo{
+
+.logo {
     width: 10%;
     border-radius: 100%;
 }
-.menu{
+
+.menu {
     display: flex;
     list-style: none;
     gap: 20px;
@@ -40,41 +43,45 @@ header{
     font-size: 14px;
 }
 
-.noticias{
+.noticias {
     margin: 20px 150px;
     display: grid;
     grid-template-columns: repeat(3, minimax(0, 1fr));
 }
 
-.card{
+.card {
     border: 2px solid var(--verde);
     padding: 20px;
     text-align: center;
 }
-.img-capa{
+
+.img-capa {
     width: 100%;
     height: 10%;
 }
-.conteudo{
+
+.conteudo {
     margin: 30px;
     border: 2px solid var(--verde);
     padding: 30px;
     text-align: center;
 }
-.conteudo-titulo{
+
+.conteudo-titulo {
     font-family: var(--titulo);
     font-size: 24px;
-    padding-bottom: 20px ;
+    padding-bottom: 20px;
     color: var(--amarelo);
 }
-.conteudo-texto{
+
+.conteudo-texto {
     font-family: var(--texto);
     font-size: 14px;
 }
 
-footer{
+footer {
     background-color: var(--azul);
-    color: var(--prata);
+    color: var(--amarelo);
     font-family: var(--titulo);
     font-size: 20px;
     padding: 20px;
