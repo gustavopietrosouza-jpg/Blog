@@ -6,9 +6,9 @@
 }
 
 :root {
-    --verde: #53eaaf;
+    --verde: #0ff1ce;
     --amarelo: #f9f871;
-    --ciano: #00dad2;
+    --ciano: #c0ffee;
     --azul: #3f04a0;
     --titulo: "Sofia", cursive;
     --texto: "Yuyu", sans-serif;
@@ -43,6 +43,13 @@ header {
     font-size: 14px;
 }
 
+.titulo-noticias{
+    font-family: var(--titulo);
+    font-size: 24px;
+    color:var(--ciano);
+    text-align: center;
+    margin-top: 20px;
+}
 .noticias {
     margin: 20px 150px;
     display: grid;
