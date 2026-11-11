@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Blog de ciências</title>
+    <title>Blog :)</title>
     <link rel="stylesheet" href="/2026-1DS-blog-main/style.css">
 </head>
 
@@ -30,8 +30,8 @@
                 <p> é quando você se afasta momentaneamente da realidade para focar na própria imaginação. É um estado mental comum e saudável que estimula a criatividade, ajuda a planejar o futuro e alivia o estresse, embora o excesso possa prejudicar a atenção e a rotina
                 </p>
                 <div class="botoes">
-                    <button>👍</button>
-                    <button>❤️</button>
+                    <button>👍<span>0</span></button>
+                    <button>❤️<span>0</span></button>
                 </div>
                 <a href=""> Saiba mais ... </a>
             </div>
@@ -39,8 +39,20 @@
     </main>
 
     <footer>
-        <p> Feito por Gustavo©</p>
+        <p>Feito por Gustavo©</p>
     </footer>
 </body>
+<script>
+   const botoes = document.querySelector('.botao-curtida');
+   botao.forEach(botao => {
+   botao.addEventlistListner('click', botaoClicado);
+   })
 
+   function botaoClicado(){
+    console.log('Botao clicado')
+    let texto = botao.querySelector('span')
+    texto.textContent++
+   }
+   
+</script>
 </html>

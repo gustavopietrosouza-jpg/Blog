@@ -43,7 +43,7 @@ header {
     font-size: 14px;
 }
 
-.titulo-noticias{
+.titulo-noticias {
     font-family: var(--titulo);
     font-size: 24px;
     color:var(--ciano);
